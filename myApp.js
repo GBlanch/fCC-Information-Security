@@ -2,6 +2,7 @@ const express = require('express');
 const helmet = require('helmet');
 const app = express();
 
+/*
 app.use(helmet.hidePoweredBy());
 
 app.use(helmet.frameguard({action: 'DENY'}));
@@ -27,7 +28,16 @@ app.use(
     scriptSrc: ["'self'", 'trusted-cdn.com'],
     }
   })
-);
+);*/
+app.use(helmet({
+  contentSecurityPolicy: {    // enable and configure
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'",'trusted-cdn.com'],
+    }
+  },
+  noCache: true     // enable
+}))
 
 
 module.exports = app;
