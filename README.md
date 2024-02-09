@@ -4,4 +4,9 @@ This is the boilerplate for the Information Security lessons. Instructions for c
 
 ---
 
-<ins>Note</ins>: This repo is the staring point of the entire IS certification. For the section concerning **BCrypt hashes** nonetheless, another web app needed to be hosted, and so I created another repo for it : **[fCC-Info-Sec-BCrypt](https://github.com/GBlanch/fCC-Info-Sec-BCrypt)**
+<ins>Note</ins>: This repo is the staring point of the entire IS certification, and it covers mainly the section `Information Security with HelmetJS`
+
+For some other challenges nonetheless, other web apps needed to be hosted and so I created respectives repo for these: 
+
+- **[fCC-Info-Sec-BCrypt](https://github.com/GBlanch/fCC-Info-Sec-BCrypt)**
+- **[fCC-Info-Sec-Stock-Price-Checker]()**
