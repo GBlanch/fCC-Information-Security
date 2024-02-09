@@ -1,10 +1,6 @@
-# Information Security with HelmetJS
+# freeCodeCamp Information Security certification
 
-This is the boilerplate for the Information Security lessons. Instructions for completing these lessons start at https://www.freecodecamp.org/learn/information-security/information-security-with-helmetjs/
-
----
-
-<ins>Note</ins>: This repo is the staring point of the entire IS certification, and it covers mainly the section `Information Security with HelmetJS`
+This repo is the staring point of the entire IS certification, and it covers mainly the section `Information Security with HelmetJS`
 
 For some other challenges nonetheless, other web apps needed to be hosted and so I created respectives repo for these: 
 
